@@ -1,0 +1,12 @@
+Error in subroutine: sysopen
+
+Error: Could not open file for writing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+Relevant parameters:
+  Io-status = 30
+  File type = text
+  Filename  = d:\projects\mesdag1.1\emissies\NH3\sector_Handel.ind
+  Filetype  = progress file
+
+Procedure 'sysopen' was called by:
+  ops_main
