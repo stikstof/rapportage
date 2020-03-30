@@ -1,0 +1,153 @@
+
+ Project  : 4112_NH3
+ Substance: NH3
+ Date/time: 12-03-2020; 23:44:39
+ =============== OPS-version: W-4.5.2.1 31 jan 2018 ===============
+
+
+ Concentrations for NH3 and NH4
+ and depositions as NH4
+ Calculated for specific locations
+
+  nr    name      x-coord y-coord  pri.con  dry.dep  wet.dep  tot.dep  sec.con    vdpri    vdsec       z0   lu_dom     precip
+                                       NH3      NHx      NHx      NHx      NH4
+                      (m)     (m)ug/m3     mol/ha/y mol/ha/y mol/ha/y    ug/m3     cm/s     cm/s        m        -
+                                         x        x        x        x        x        x        x        x
+                                    1.E-03   1.E-01   1.E-01   1.E-01   1.E-04   1.E-03   1.E-03   1.E-03
+
+
+   1 190           226669  563454      332      415      249      664      881      659       56      218        0      625
+   2 190           226576  563508      333      415      249      665      879      659       56      218        0      625
+   3 190           226483  563561      333      416      250      666      878      660       56      218        0      625
+   4 190           226669  563561      332      414      249      663      879      659       56      218        0      625
+   5 190           226204  563615      335      418      250      669      877      660       56      218        0      625
+   6 190           226390  563615      333      417      250      666      877      660       56      218        0      625
+   7 190           226576  563615      332      415      249      664      877      660       56      218        0      625
+   8 190           226297  563669      334      418      250      667      876      660       56      218        0      625
+   9 190           226483  563669      333      416      249      665      876      660       56      218        0      625
+  10 190           226669  563669      331      414      249      663      877      660       56      218        0      625
+  11 190           226204  563723      334      418      250      668      875      660       56      218        0      625
+  12 190           226390  563723      333      416      250      666      876      660       56      218        0      625
+  13 190           226576  563723      331      414      249      663      876      660       56      218        0      625
+  14 190           226297  563776      334      417      250      667      875      660       56      218        0      625
+  15 190           226483  563776      332      415      249      665      875      660       56      218        0      625
+  16 190           226669  563776      330      413      249      662      876      660       56      218        0      625
+  17 190           226204  563830      334      418      250      667      874      661       56      218        0      625
+  18 190           226390  563830      332      416      249      665      874      660       56      218        0      625
+  19 190           226576  563830      331      414      249      663      874      661       56      218        0      625
+  20 190           226111  563884      335      419      250      669      874      660       56      218        0      625
+  21 190           226297  563884      333      417      250      667      874      661       56      218        0      625
+  22 190           226483  563884      332      415      249      664      873      661       56      218        0      625
+  23 190           226204  563938      333      417      250      667      873      661       56      218        0      625
+  24 190           226390  563938      332      416      249      665      873      661       56      218        0      625
+  25 190           226576  563938      330      414      249      662      872      661       56      218        0      625
+  26 190           226111  563991      334      418      250      668      872      661       56      218        0      625
+  27 190           226297  563991      332      416      249      666      872      661       56      218        0      625
+  28 190           226483  563991      331      415      249      664      872      661       56      218        0      625
+  29 190           226204  564045      376      739      274     1014      851     1024      175      519        0      625
+  30 204           226204  564045      376      739      274     1014      851     1024      175      519        0      625
+  31 190           226390  564045      374      737      274     1011      851     1023      175      519        0      625
+  32 190           226576  564045      373      734      274     1008      852     1023      175      519        0      625
+  33 190           226111  564099      376      740      275     1015      850     1024      175      519        0      625
+  34 204           226111  564099      376      740      275     1015      850     1024      175      519        0      625
+  35 190           226297  564099      375      738      274     1012      850     1024      175      519        0      625
+  36 204           226297  564099      375      738      274     1012      850     1024      175      519        0      625
+  37 190           226483  564099      374      735      274     1009      851     1023      175      519        0      625
+  38 190           226204  564152      375      738      274     1013      849     1024      175      519        0      625
+  39 204           226204  564152      375      738      274     1013      849     1024      175      519        0      625
+  40 190           226390  564152      374      736      274     1010      849     1024      175      519        0      625
+  41 190           226576  564152      373      733      273     1006      850     1023      175      519        0      625
+  42 190           226297  564206      374      737      274     1011      849     1025      175      519        0      625
+
+
+ Project  : 4112_NH3
+ Substance: NH3
+ Date/time: 12-03-2020; 23:44:39
+ =============== OPS-version: W-4.5.2.1 31 jan 2018 ===============
+
+
+
+ Summary statistics for NH3
+
+ NH3 considered as gaseous
+ Dispersion and deposition of secundary component NH4 included
+ -------------------------------------------------------------------------------
+
+ average NH3 concentration                       : 0.347E+00ug/m3 
+
+ average NH4 concentration                       : 0.867E-01 ug/m3
+ eff. NH3 > NH4 chem. conv. rate                 :     2.520 %/h
+
+ average dry NHx deposition (as NH4)             : 0.523E+02 mol/ha/y 
+ average dry NH3 deposition (as NH4)             : 0.509E+02 mol/ha/y 
+ average dry NH4 deposition (as NH4)             : 0.144E+01 mol/ha/y 
+ effective dry deposition velocity NH3           :     0.791 cm/s
+ effective dry deposition velocity NH4           :     0.095 cm/s
+
+ average wet NHx deposition (as NH4)             : 0.258E+02 mol/ha/y 
+ average wet NH3 deposition (as NH4)             : 0.228E+02 mol/ha/y 
+ average wet NH4 deposition (as NH4)             : 0.297E+01 mol/ha/y 
+ effective wet deposition rate NH3               :     4.161 %/h
+ effective wet deposition rate NH4               :     3.643 %/h
+ annual precipitation amount                     :       624 mm
+
+ average NHx deposition (as NH4)                 : 0.781E+02 mol/ha/y 
+ -------------------------------------------------------------------------------
+
+
+ Project  : 4112_NH3
+ Substance: NH3
+ Date/time: 12-03-2020; 23:44:39
+ =============== OPS-version: W-4.5.2.1 31 jan 2018 ===============
+
+
+
+ Meteorological statistics used:
+ -------------------------------
+
+ climatological area  :  The Netherlands (interpolated meteo)
+ type of statistics   :  normal statistics
+ climatological period:  180101 - 190101  year period                   
+
+
+ Surface roughness (z0) data used:
+ ---------------------------------
+ Regionally differentiated z0 values determined by OPS
+
+
+ Files used by OPS:
+ ------------------
+ Control parameter file         : d:\projects\mesdag2.0\Scenarios\Norgerholt\10km\4112.ctr
+ Emission data file             : 4112.brn
+ Diurnal variation file(s)
+   - pre-defined                : C:\Applics\OPS-Pro_2018\Data\dvepre.ops
+ Receptor data file             : d:\projects\mesdag2.0\Scenarios\Norgerholt\depopoints.csv
+ Climatological data files      : C:\Applics\OPS-Pro_2018\Meteo\a018118c.001...006
+ Surface roughness file         : C:\Applics\OPS-Pro_2018\Data\z0_jr_1000_lgn7.ops
+ Landuse file                   : C:\Applics\OPS-Pro_2018\Data\lu_1000_lgn7.ops
+
+
+ Files produced by OPS:
+ ----------------------
+ Plotter output file            : 4112.tab
+ Printer output file (this file): 4112.lpt
+
+
+ Project  : 4112_NH3
+ Substance: NH3
+ Date/time: 12-03-2020; 23:44:39
+ =============== OPS-version: W-4.5.2.1 31 jan 2018 ===============
+
+
+
+ Total emission (in tonnes/year) per country / area:
+ ---------------------------------------------------
+
+ Applied correction factor: 1.0000
+
+ +---------------------------------------------------------------------+
+ | country |  total    | industry  | industry  | traffic   | space     |
+ | number  |           |  h > 35m  | h < 35m   |           | heating   |
+ |---------------------------------------------------------------------|
+ |   528   |     26190 |         0 |     26190 |         0 |         0 |
+ +---------------------------------------------------------------------+

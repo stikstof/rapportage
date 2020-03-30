@@ -1,0 +1,91 @@
+-- View: public.v_n2000
+
+-- DROP VIEW public.v_n2000;
+
+CREATE OR REPLACE VIEW public.v_n2000
+ AS
+ SELECT natura2000.id,
+    natura2000.geom,
+    natura2000.naam_n2k,
+    natura2000.vhn_new,
+    natura2000.nr,
+    natura2000.bescherming,
+    natura2000.status,
+    natura2000.sitecode_v,
+    natura2000.sitecode_h,
+    natura2000.kadaster,
+    natura2000.staatscourant
+   FROM natura2000
+  WHERE natura2000.naam_n2k::text ~~ '%Veluwe'::text AND natura2000.bescherming::text = 'VR+HR'::text;
+
+ALTER TABLE public.v_n2000
+    OWNER TO postgres;
+
+-- View: public.v_n2000_1000m
+
+-- DROP VIEW public.v_n2000_1000m;
+
+CREATE OR REPLACE VIEW public.v_n2000_1000m
+ AS
+ SELECT st_buffer(v_n2000.geom, 1000::double precision) AS geom,
+    v_n2000.id
+   FROM v_n2000;
+
+ALTER TABLE public.v_n2000_1000m
+    OWNER TO postgres;
+
+
+-- View: public.v_n2000_2500m
+
+-- DROP VIEW public.v_n2000_2500m;
+
+CREATE OR REPLACE VIEW public.v_n2000_2500m
+ AS
+ SELECT st_buffer(v_n2000.geom, 2500::double precision) AS geom,
+    v_n2000.id
+   FROM v_n2000;
+
+ALTER TABLE public.v_n2000_2500m
+    OWNER TO postgres;
+
+-- View: public.v_n2000_5000m
+
+-- DROP VIEW public.v_n2000_5000m;
+
+CREATE OR REPLACE VIEW public.v_n2000_5000m
+ AS
+ SELECT st_buffer(v_n2000.geom, 5000::double precision) AS geom,
+    v_n2000.id
+   FROM v_n2000;
+
+ALTER TABLE public.v_n2000_5000m
+    OWNER TO postgres;
+
+
+
+-- View: public.v_n2000_10000m
+
+-- DROP VIEW public.v_n2000_10000m;
+
+CREATE OR REPLACE VIEW public.v_n2000_10000m
+ AS
+ SELECT st_buffer(v_n2000.geom, 10000::double precision) AS geom,
+    v_n2000.id
+   FROM v_n2000;
+
+ALTER TABLE public.v_n2000_10000m
+    OWNER TO postgres;
+
+-- View: public.v_n2000_25000m
+
+-- DROP VIEW public.v_n2000_25000m;
+
+CREATE OR REPLACE VIEW public.v_n2000_25000m
+ AS
+ SELECT st_buffer(v_n2000.geom, 25000::double precision) AS geom,
+    v_n2000.id
+   FROM v_n2000;
+
+ALTER TABLE public.v_n2000_25000m
+    OWNER TO postgres;
+

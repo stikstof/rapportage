@@ -1,0 +1,18 @@
+1. selecteer een Natura 2000 gebied
+2. maak een mapje aan met naam van natura 2000 gebied
+3. schrijf natura 2000 gebied weg als nieuwe geom
+4. maak een bufferafstand aan rondom het natura 2000 gebied
+5. maak een group aan in QGIS met bufferafstand
+
+6. laad de standaard emissiedata van de categorien in voor landbouw vanuit de .csv files: 
+d:\projects\mesdag2.0\Scenarios\Norgerholt\0km\emissie\NH3\
+
+7. exporteer de emissiedata als shapefiles in het scenario met bufferafstand
+8. selecteer de emissiedata binnen de bufferafstand rondom het natuurgebied in QGIS met Vector -> Research tools -> Select by location
+9. schrijf de selectie van de emissiedata punten weg als een .csv textfile om de oorspronkelijk emissiedata binnen de bufferafstand te behouden. Dit kan worden gebruikt om een bedrijfsaantal te kunnen selecteren vanuit de totale emissievracht binnen de categorien. 
+10. van de geselecteerde emissiedata punten in de bufferzone zet je de q [g/s] op 0. 
+11. deselecteer de punten.
+12. save de dataset van de shapefile.
+
+13. exporteer de dataset als een .csv file voor omzetten naar een OPS .brn file
+
